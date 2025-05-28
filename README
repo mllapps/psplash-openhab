@@ -26,3 +26,24 @@ When creating patches, please use something like:
 
 When sending patches, please use something like:
     git send-email --to yocto-patches@lists.yoctoproject.org <generated patch>
+
+## How to build?
+
+```
+autoreconf --install
+mkdir build
+cd build
+../configure
+make
+```
+
+## How to use?
+
+```
+export PSPLASH_FIFO_DIR=/run/psplash & psplash -n --fbdev 0 &
+
+psplash-write "MSG Hello world!"
+psplash-write "PROGRESS 10"
+psplash-write "QUIT"
+
+```

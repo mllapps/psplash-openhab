@@ -1,10 +1,10 @@
 /* GdkPixbuf RGBA C-Source image dump 1-byte-run-length-encoded */
 
-#define _IMG_ROWSTRIDE (960)
-#define _IMG_WIDTH (240)
-#define _IMG_HEIGHT (280)
-#define _IMG_BYTES_PER_PIXEL (4) /* 3:RGB, 4:RGBA */
-#define _IMG_RLE_PIXEL_DATA ((uint8*) \
+#define OPENHAB_IMG_ROWSTRIDE (960)
+#define OPENHAB_IMG_WIDTH (240)
+#define OPENHAB_IMG_HEIGHT (280)
+#define OPENHAB_IMG_BYTES_PER_PIXEL (4) /* 3:RGB, 4:RGBA */
+#define OPENHAB_IMG_RLE_PIXEL_DATA ((uint8*) \
   "\3\371\371\371Y\370\370\370*\377\367\367!\202\367\367\367\"\6\377\377" \
   "\367\"\367\367\367#\367\367\360#\367\367\367\"\377\377\367!\367\367\360" \
   "\"\203\367\367\367\"\10\367\360\360#\377\367\367\"\367\360\360#\367\367" \
