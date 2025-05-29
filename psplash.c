@@ -14,6 +14,7 @@
 #include "psplash-config.h"
 #include "psplash-colors.h"
 #include "psplash-openhab-img.h"
+#include "psplash-openhab_black-img.h"
 #include "psplash-bar-img.h"
 #ifdef HAVE_SYSTEMD
 #include <systemd/sd-daemon.h>
