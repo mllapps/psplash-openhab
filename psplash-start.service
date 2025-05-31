@@ -6,7 +6,7 @@ Before=sysinit.target
 
 [Service]
 Type=exec
-ExecStart=/usr/bin/psplash -n
+ExecStart=/usr/local/bin/psplash -n --fbdev 0
 
 [Install]
 WantedBy=sysinit.target
